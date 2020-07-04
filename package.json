@@ -1,7 +1,7 @@
 {
-  "name": "number",
+  "name": "vanilla-js-template",
   "version": "1.0.0",
-  "description": "Converts a number into legible format",
+  "description": "Template for simple vanilla js services",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist",
