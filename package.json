@@ -15,9 +15,10 @@
     }
   },
   "lint-staged": {
-    "**/*.js": [
+    "**/*": [
       "npm run lint-fix",
-      "prettier --write"
+      "prettier --write",
+      "npm run test"
     ]
   },
   "author": "",
